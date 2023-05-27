@@ -1,5 +1,7 @@
 console.log('***** Function Practice *****');
 
+// wifi = Welcome28
+
 // Add the required code to complete the functions below
 // After _each_ function, use a console log to call the function
 // to test it and display the result
@@ -44,7 +46,6 @@ function isPositive(number) {
     return false;
     }
 }
-console.log('Test - should say "true"',isPositive());
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log('isPositive - should say true', isPositive(3));
@@ -53,7 +54,7 @@ console.log('isPositive - should say false', isPositive(-3));
 
 
 // 6. Function to return the _last_ item in an array. If the 
-//    array is empty, return `undefined`.
+// array is empty, return `undefined`.
 function getLast(array) {
 if (array != undefined) {
   return array.pop();
@@ -103,13 +104,12 @@ function sumAll() {
   // TODO: loop to add items
   for (let i = 0; i < sumAll.length; index++) {
     sum += sumAll[i];
-    return console.log(sum);
   }
   // TODO: return the sum
   return console.log(sum);
 }
 
-console.log(sumAll([1,2,3,4]));
+console.log("This is the sum of the array", sumAll([1,2,3,4]));
 
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
@@ -127,6 +127,15 @@ console.log(sumAll([1,2,3,4]));
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
 
+// Create a function that takes two numbers as arguments and returns their sum.
+// Examples
+// addition(3, 2) ➞ 5
+// addition(-3, -6) ➞ -9
+// addition(7, 3) ➞ 10
+// Notes
+// Don't forget to return the result.
+// If you get stuck on a challenge, find help in the Resources tab.
+// If you're really stuck, unlock solutions in the Solutions tab.
 
 // DO NOT MODIFY
 // Used for automated testing
